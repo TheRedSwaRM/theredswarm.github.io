@@ -1,6 +1,6 @@
 <script>
     import {Github, Linkedin, Gmail} from 'svelte-simples';
-    import logo from '$lib/assets/me.png';
+    import me from '$lib/assets/me.png';
 </script>
 
 <div class="flex flex-row py-4" id="Hero">
@@ -26,13 +26,12 @@
             <a href="/"><Github></Github></a>
             <a href="/"><Linkedin></Linkedin></a>
             <a href="/"><Gmail></Gmail></a>
-            
         </div>
     </div>
 
     <div class="flex flex-row-reverse w-1/3" id="photo">
-        <img src={logo} alt="Ralf Michael Balatibat" class="mr-24">
-        <!-- insert background here -->
+        <img src={me} alt="Ralf Michael Balatibat" class="mr-24">
+
     </div>
     <hr>
 </div>

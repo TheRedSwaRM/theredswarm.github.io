@@ -3,8 +3,10 @@
   import Hero from "./Hero.svelte";
 
 </script>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<div class="" id="navbar">
+  <Navbar />
+</div>
 
 <!-- NOTE -->
 <!-- 
@@ -13,9 +15,6 @@
 - Interactive Elements: animations or interactive elements. 
 -->
 
-<div class="" id="navbar">
-  <Navbar />
-</div>
 
 <div class="py-4" id="header">
   <!-- insert navbar here -->
