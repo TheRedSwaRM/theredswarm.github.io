@@ -1,6 +1,7 @@
 <script>
   import Navbar from "$lib/components/Navbar.svelte";
   import Hero from "./Hero.svelte";
+  import Skills from "./Skills.svelte";
 
 </script>
 
@@ -31,6 +32,7 @@ Introduction: A brief introduction or tagline that summarizes who you are and wh
 Call to Action: A button that encourages visitors to view your work or contact you. -->
 
 <div class="py-4" id="languages_frameworks_technologies">
+  <Skills />
 </div>
 
 <div class="py-4" id="projects">
