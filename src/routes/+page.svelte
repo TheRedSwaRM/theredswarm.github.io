@@ -2,6 +2,7 @@
   import Navbar from "$lib/components/Navbar.svelte";
   import Hero from "./Hero.svelte";
   import Skills from "./Skills.svelte";
+  import Projects from "./Projects.svelte";
 
 </script>
 
@@ -40,6 +41,7 @@ Call to Action: A button that encourages visitors to view your work or contact y
   <!-- Featured Projects
   Project Thumbnails: Images or screenshots of your top projects.
   Project Descriptions: Brief descriptions of each project, including your role, technologies used, and any notable achievements. -->
+  <Projects />
 </div>
 
 <div class="py-4" id="contact_info">
