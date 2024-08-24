@@ -3,6 +3,7 @@
   import Hero from "./Hero.svelte";
   import Skills from "./Skills.svelte";
   import Projects from "./Projects.svelte";
+  import Contact from "./Contact.svelte";
 
 </script>
 
@@ -48,6 +49,7 @@ Call to Action: A button that encourages visitors to view your work or contact y
   <!-- insert contact info, FB page, linkedin, etc. -->
   <!-- Contact Form: A simple form for visitors to get in touch with you.
   Social Media Links: Icons linking to your professional social media profiles (e.g., LinkedIn, GitHub, Twitter). -->
+  <Contact />
 </div>
 
 <div class="py-4" id="footer">
