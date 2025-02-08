@@ -3,7 +3,7 @@
     import employability from '$lib/assets/employability-predictor.png';
 </script>
 
-<div class="flex content-center justify-center">   
+<div class="flex flex-wrap content-center justify-center gap-4 my-4">   
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
         <a href="/">
             <img class="rounded-t-lg w-full" src="{employability}" alt="" />
@@ -57,8 +57,6 @@
             </a>
         </div>
     </div>
-</div>
-<div class="flex">
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
         <a href="/">
             <img class="rounded-t-lg w-full" src="{old}" alt="" />
