@@ -43,12 +43,12 @@
     <Projects />
   </div>
 
-  <div class="py-4" id="contact_info">
+  <!-- <div class="py-4" id="contact_info"> -->
     <!-- insert contact info, FB page, linkedin, etc. -->
     <!-- Contact Form: A simple form for visitors to get in touch with you.
     Social Media Links: Icons linking to your professional social media profiles (e.g., LinkedIn, GitHub, Twitter). -->
-    <Contact />
-  </div>
+    <!-- <Contact /> -->
+  <!-- </div> -->
 
   <div class="py-4" id="footer">
     <!--  Footer
