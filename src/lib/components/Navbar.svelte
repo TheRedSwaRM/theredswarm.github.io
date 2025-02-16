@@ -1,6 +1,5 @@
 <script lang="ts">
     import old_logo from '$lib/assets/old-logo.png';
-    import { base } from '$app/paths'
 </script>
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
