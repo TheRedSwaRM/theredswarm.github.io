@@ -10,8 +10,8 @@
                 <h1 class="my-8 text-5xl font-bold tracking-tight">
                         Hello, world! I'm
                     <span class="relative whitespace-nowrap">Ralf Michael
-                        <span class="absolute left-0 -bottom-1 h-1 w-full origin-left bg-red-500/75" style="width: 100%;"></span>
-                        <span class="absolute -bottom-5 right-0 w-full tracking-normal text-center text-xs opacity-60">but you can call me Ram!</span>
+                        <span class="absolute left-0 -bottom-0 h-1 w-full origin-left bg-red-500/75" style="width: 100%;"></span>
+                        <span class="absolute -bottom-4 right-0 w-full tracking-normal text-center text-xs opacity-60">but you can call me Ram!</span>
                     </span>
                 </h1>
                 <h2 class="font-bold text-xl">
