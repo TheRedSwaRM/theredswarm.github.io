@@ -5,7 +5,7 @@
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">   
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-        <a href="/">
+        <a href="https://github.com/TheRedSwaRM/cs180-filipino-student-employability-predictor">
             <img class="rounded-t-lg w-full" src="{employability}" alt="" />
         </a>
         <div class="p-5">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-        <a href="/">
+        <a href="https://theredswarm.itch.io/project-privacy">
             <img class="rounded-t-lg w-full" src="{old}" alt="" />
         </a>
         <div class="p-5">
@@ -58,7 +58,7 @@
         </div>
     </div>
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
-        <a href="/">
+        <a href="https://github.com/TheRedSwaRM/smart-meter-iot">
             <img class="rounded-t-lg w-full" src="{old}" alt="" />
         </a>
         <div class="p-5">
