@@ -1,4 +1,5 @@
 <script>
+    import ProjectCard from "$lib/components/ProjectCard.svelte";
     import old from '$lib/assets/old-logo.png';
     import employability from '$lib/assets/employability-predictor.png';
 </script>
@@ -74,4 +75,11 @@
             </a>
         </div>
     </div>
+    <ProjectCard 
+        project_image="{old}"
+        project_title="Test"
+        project_description="test project description"
+        project_link="test project link"
+        project_link_desc="test project linke description"
+    />
 </div>
