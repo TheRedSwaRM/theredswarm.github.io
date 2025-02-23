@@ -2,7 +2,7 @@
     export let project_image, project_title, project_description, project_link, project_link_desc: string;
 </script>
 
-<!-- To be implemented in the future for refactoring purposes -->
+<!-- TODO: Consistent formatting for card elements (button position, image sizes, etc.) -->
 
 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
     <a href="{project_link}">

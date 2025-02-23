@@ -12,6 +12,7 @@
         project_link="https://github.com/TheRedSwaRM/cs180-filipino-student-employability-predictor"
         project_link_desc="GitHub Repository"
     />
+    <!-- TODO: Add pictures to Projects -->
     <ProjectCard
         project_image="{old}"
         project_title="Project Privacy"
