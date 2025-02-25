@@ -2,6 +2,7 @@
     import ProjectCard from "$lib/components/ProjectCard.svelte";
     import old from '$lib/assets/old-logo.png';
     import employability from '$lib/assets/employability-predictor.png';
+    import project_priacy from '$lib/assets/project_privacy.png';
 </script>
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">
@@ -14,7 +15,7 @@
     />
     <!-- TODO: Add pictures to Projects -->
     <ProjectCard
-        project_image="{old}"
+        project_image="{project_priacy}"
         project_title="Project Privacy"
         project_description="A short 2D point-and-click thriller game used in conducting research on the relationship between video game immersion and perceptions on Data Privacy."
         project_link="https://theredswarm.itch.io/project-privacy"
