@@ -3,6 +3,7 @@
     import me from '$lib/assets/me.png';
 </script>
 
+<!-- TODO: Improve design based on Figma design (Ram knows where it is) -->
 <div class="flex flex-row py-4 justify-center content-center" id="Hero">
     <div class="border border-gray-200 rounded-lg shadow w-2/3">
         <div class="m-6 space-y-2 rounded-2xl p-6" id="left-side">

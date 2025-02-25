@@ -39,6 +39,7 @@
 
 </script>
 
+<!-- TODO: fix layout -->
 <article class="flex flex-row flex-wrap content-center justify-center text-center gap-4">
     <section class="flex-1 max-w-sm bg-white border border-gray-200 rounded-lg shadow p-2">
         <h1 class="my-4 font-bold text-xl">Programming Languages</h1>

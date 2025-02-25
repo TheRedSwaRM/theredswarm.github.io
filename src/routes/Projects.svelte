@@ -13,7 +13,6 @@
         project_link="https://github.com/TheRedSwaRM/cs180-filipino-student-employability-predictor"
         project_link_desc="GitHub Repository"
     />
-    <!-- TODO: Add pictures to Projects -->
     <ProjectCard
         project_image="{project_priacy}"
         project_title="Project Privacy"
@@ -21,6 +20,7 @@
         project_link="https://theredswarm.itch.io/project-privacy"
         project_link_desc="Game Page"
     />
+    <!-- TODO: add image -->
     <ProjectCard
         project_image="{old}"
         project_title="UP Computer Center: Super Ping Map"
@@ -28,6 +28,7 @@
         project_link=""
         project_link_desc=""
     />
+    <!-- TODO: add image -->
     <ProjectCard
         project_image="{old}"
         project_title="IoMeter: Smart Energy Meter"
@@ -35,6 +36,7 @@
         project_link="https://github.com/TheRedSwaRM/smart-meter-iot"
         project_link_desc="Github Repository"
     />
+    <!-- TODO: add image -->
     <ProjectCard
         project_image="{old}"
         project_title="ACCESS GRANTED"
@@ -42,6 +44,7 @@
         project_link="https://github.com/ssencarnacion/CS132-Project-Philippines-in-a-Nutshell---Education"
         project_link_desc="Github Repository"
     />
+    <!-- TODO: add image -->
     <ProjectCard
         project_image="{old}"
         project_title="Iwas Singko!"
