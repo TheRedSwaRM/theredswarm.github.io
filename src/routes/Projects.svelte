@@ -2,9 +2,10 @@
     import ProjectCard from "$lib/components/ProjectCard.svelte";
     import old from '$lib/assets/old-logo.png';
     import employability from '$lib/assets/employability-predictor.png';
-    import project_privacy from '$lib/assets/project_privacy.png';
+    import project_privacy from '$lib/assets/project-privacy.png';
     import super_ping_map from '$lib/assets/super-ping-map.png';
     import iometer from '$lib/assets/iometer.png';
+    import access_granted from '$lib/assets/access-granted.png';
 </script>
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">
@@ -36,9 +37,8 @@
         project_link="https://github.com/TheRedSwaRM/smart-meter-iot"
         project_link_desc="Github Repository"
     />
-    <!-- TODO: add image -->
     <ProjectCard
-        project_image="{old}"
+        project_image="{access_granted}"
         project_title="ACCESS GRANTED"
         project_description="A data science endeavor that explores the state of education access in the Philippines."
         project_link="https://github.com/ssencarnacion/CS132-Project-Philippines-in-a-Nutshell---Education"
