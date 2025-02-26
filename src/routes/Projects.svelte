@@ -3,6 +3,7 @@
     import old from '$lib/assets/old-logo.png';
     import employability from '$lib/assets/employability-predictor.png';
     import project_privacy from '$lib/assets/project_privacy.png';
+    import super_ping_map from '$lib/assets/super-ping-map.png';
 </script>
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">
@@ -22,7 +23,7 @@
     />
     <!-- TODO: add image -->
     <ProjectCard
-        project_image="{old}"
+        project_image="{super_ping_map}"
         project_title="UP Computer Center: Super Ping Map"
         project_description="A content management system and campus network coverage visualizer developed during a workshop on software development hosted in the University Computer Center that"
         project_link=""
