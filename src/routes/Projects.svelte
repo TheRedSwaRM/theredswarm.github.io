@@ -4,6 +4,7 @@
     import employability from '$lib/assets/employability-predictor.png';
     import project_privacy from '$lib/assets/project_privacy.png';
     import super_ping_map from '$lib/assets/super-ping-map.png';
+    import iometer from '$lib/assets/iometer.png';
 </script>
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">
@@ -21,7 +22,6 @@
         project_link="https://theredswarm.itch.io/project-privacy"
         project_link_desc="Game Page"
     />
-    <!-- TODO: add image -->
     <ProjectCard
         project_image="{super_ping_map}"
         project_title="UP Computer Center: Super Ping Map"
@@ -29,9 +29,8 @@
         project_link=""
         project_link_desc=""
     />
-    <!-- TODO: add image -->
     <ProjectCard
-        project_image="{old}"
+        project_image="{iometer}"
         project_title="IoMeter: Smart Energy Meter"
         project_description="Real-time household energy cosumption tracking and alerting in the form of an IoT embedded system."
         project_link="https://github.com/TheRedSwaRM/smart-meter-iot"
