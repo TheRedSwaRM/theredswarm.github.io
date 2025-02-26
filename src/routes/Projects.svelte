@@ -6,6 +6,7 @@
     import super_ping_map from '$lib/assets/super-ping-map.png';
     import iometer from '$lib/assets/iometer.png';
     import access_granted from '$lib/assets/access-granted.png';
+    import iwas_singko from '$lib/assets/iwas-singko.png';
 </script>
 
 <div class="flex flex-wrap content-center justify-center gap-4 my-4">
@@ -44,9 +45,8 @@
         project_link="https://github.com/ssencarnacion/CS132-Project-Philippines-in-a-Nutshell---Education"
         project_link_desc="Github Repository"
     />
-    <!-- TODO: add image -->
     <ProjectCard
-        project_image="{old}"
+        project_image="{iwas_singko}"
         project_title="Iwas Singko!"
         project_description="An Arcade-like Game Set in UP Diliman"
         project_link="https://github.com/TheRedSwaRM/IwasSingko"
