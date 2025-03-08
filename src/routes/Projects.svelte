@@ -9,7 +9,7 @@
     import iwas_singko from '$lib/assets/iwas-singko.png';
 </script>
 
-<div class="flex flex-wrap content-center justify-center gap-4 my-4">
+<div class="flex flex-wrap justify-center gap-4 my-4">
     <ProjectCard
         project_image="{employability}"
         project_title="Filipino Student Employability Predictor"
