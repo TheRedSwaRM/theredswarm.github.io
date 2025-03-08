@@ -2,6 +2,7 @@
     import Logo from '../routes/Logo.svelte'
     // Languages
     import c from '$lib/icons/c.svg';
+    import csharp from '$lib/icons/csharp.svg'
     import python from '$lib/icons/python.svg';
     import js from '$lib/icons/js.svg';
     import ts from '$lib/icons/ts.svg';
@@ -20,7 +21,6 @@
     import sqlalchemy from '$lib/icons/sqlalchemy.svg';
 
     // Tools and Technologies
-    import vsc from '$lib/icons/vsc.svg';
     import git from '$lib/icons/git.svg';
     import docker from '$lib/icons/docker.svg';
     import nodejs from '$lib/icons/nodejs.svg';
@@ -32,9 +32,6 @@
     import phabricator from '$lib/icons/phabricator.svg';
     import kibana from '$lib/icons/kibana.svg';
     import godot from '$lib/icons/godot.svg';
-    import illustrator from '$lib/icons/illustrator.svg';
-    import photoshop from '$lib/icons/photoshop.svg';
-    import canva from '$lib/icons/canva.svg';
     import figma from '$lib/icons/figma.svg';
 
 </script>
@@ -44,6 +41,7 @@
     <section class="flex-1 max-w-sm bg-white border border-gray-200 rounded-lg shadow p-2">
         <h1 class="my-4 font-bold text-xl">Programming Languages</h1>
         <Logo src={c} name="C" />
+        <Logo src={csharp} name="C#" />
         <Logo src={python} name="Python" />
         <Logo src={js} name="JavaScript" />
         <Logo src={ts} name="TypeScript" />
@@ -64,7 +62,6 @@
     </section>
     <section class="flex-3 max-w-sm bg-white border border-gray-200 rounded-lg shadow p-2">
         <h1 class="my-4 font-bold text-xl">Tools and Technologies</h1>
-        <Logo src={vsc} name="Visual Studio Code" />
         <Logo src={git} name="Git" />
         <Logo src={docker} name="Docker" />
         <Logo src={nodejs} name="Node.js" />
@@ -76,7 +73,6 @@
         <Logo src={phabricator} name="Phabricator" />
         <Logo src={kibana} name="Kibana" />
         <Logo src={godot} name="Godot" />
-        <Logo src={canva} name="Canva" />
         <Logo src={figma} name="Figma" />
     </section>
 </article>
