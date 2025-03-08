@@ -15,6 +15,7 @@
     import react from '$lib/icons/react.svg';
     import nextjs from '$lib/icons/nextjs.svg';
     import svelte from '$lib/icons/svelte.svg';
+    import dotnet from '$lib/icons/dotnet.svg'
     import rubyrails from '$lib/icons/rubyrails.svg';
     import tailwindcss from '$lib/icons/tailwindcss.svg';
     import flask from '$lib/icons/flask.svg';
@@ -25,6 +26,7 @@
     import docker from '$lib/icons/docker.svg';
     import nodejs from '$lib/icons/nodejs.svg';
     import vercel from '$lib/icons/vercel.svg';
+    import vite from '$lib/icons/vite.svg'
     import postgresql from '$lib/icons/postgresql.svg';
     import mysql from '$lib/icons/mysql.svg';
     import mssql from '$lib/icons/mssql.svg';
@@ -55,6 +57,7 @@
         <Logo src={react} name="React" />
         <Logo src={nextjs} name="Next.js" />
         <Logo src={svelte} name="Svelte" />
+        <Logo src={dotnet} name=".NET" />
         <Logo src={rubyrails} name="Ruby on Rails"/>
         <Logo src={tailwindcss} name="TailwindCSS"/>
         <Logo src={flask} name="Flask"/>
@@ -69,6 +72,7 @@
         <Logo src={postgresql} name="PostgreSQL" />
         <Logo src={mysql} name="MySQL" />
         <Logo src={mssql} name="MsSQL" />
+        <Logo src={vite} name="Vite" />
         <Logo src={jenkins} name="Jenkins" />
         <Logo src={phabricator} name="Phabricator" />
         <Logo src={kibana} name="Kibana" />
