@@ -1,8 +1,12 @@
 <script lang="ts">
-    export let project_image, project_title, project_description, project_link, project_link_desc: string;
+    export let project_image, project_title, project_description, project_link;
+    // project_link_desc: string;
 </script>
 
 <a href="{project_link}" class="flex flex-col max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+    <div>
+        <!-- TODO: add tech logos used for project here -->
+    </div>
     <div class="flex-shrink-0 h-1/2">
         <img class="rounded-t-lg w-full h-full" src="{project_image}" alt="" />
     </div>
@@ -13,8 +17,5 @@
             </a>
             <p class="text-gray-700 pb-5">{project_description}</p>
         </div>
-    </div>
-    <div>
-        <!-- TODO: add tech logos used for project here -->
     </div>
 </a>

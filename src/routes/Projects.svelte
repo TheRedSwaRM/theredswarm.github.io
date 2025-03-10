@@ -15,41 +15,35 @@
         project_title="Filipino Student Employability Predictor"
         project_description="A short quiz that uses AI to assess your employability."
         project_link="https://github.com/TheRedSwaRM/cs180-filipino-student-employability-predictor"
-        project_link_desc="GitHub Repository"
     />
     <ProjectCard
         project_image="{project_privacy}"
         project_title="Project Privacy"
         project_description="A short 2D point-and-click thriller game used in conducting research on the relationship between video game immersion and perceptions on Data Privacy."
         project_link="https://theredswarm.itch.io/project-privacy"
-        project_link_desc="Game Page"
     />
     <ProjectCard
         project_image="{super_ping_map}"
         project_title="UP Computer Center: Super Ping Map"
         project_description="A content management system and campus network coverage visualizer developed during a workshop on software development hosted in the University Computer Center that"
         project_link=""
-        project_link_desc=""
     />
     <ProjectCard
         project_image="{iometer}"
         project_title="IoMeter: Smart Energy Meter"
         project_description="Real-time household energy cosumption tracking and alerting in the form of an IoT embedded system."
         project_link="https://github.com/TheRedSwaRM/smart-meter-iot"
-        project_link_desc="Github Repository"
     />
     <ProjectCard
         project_image="{access_granted}"
         project_title="ACCESS GRANTED"
         project_description="A data science endeavor that explores the state of education access in the Philippines."
         project_link="https://github.com/ssencarnacion/CS132-Project-Philippines-in-a-Nutshell---Education"
-        project_link_desc="Github Repository"
     />
     <ProjectCard
         project_image="{iwas_singko}"
         project_title="Iwas Singko!"
         project_description="An Arcade-like Game Set in UP Diliman"
         project_link="https://github.com/TheRedSwaRM/IwasSingko"
-        project_link_desc="Github Repository"
     />
 </div>
