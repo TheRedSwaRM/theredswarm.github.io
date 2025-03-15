@@ -12,7 +12,7 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
-
+# TODO: add other essential stuff soon (linting, formatting, etc.)
 jobs:
   build:
     name: Build SvelteKit
