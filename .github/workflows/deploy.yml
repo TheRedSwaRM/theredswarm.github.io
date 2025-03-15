@@ -1,19 +1,17 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
   push:
     branches: main
 
 permissions:
   contents: read
   pages: write
-  id-token: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
-# TODO: fix jobs
+
 jobs:
   build:
     name: Build SvelteKit
@@ -21,13 +19,10 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Install pnpm
-        uses: yarn/action-setup@v4
-      - name: Install Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          cache: pnpm
-          cache-dependency-path: pnpm-lock.yaml
+          node-version: '20'
       - name: Install Dependencies
         run: yarn install
       # - name: Check Formatters
