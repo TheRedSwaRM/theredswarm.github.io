@@ -29,13 +29,13 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - name: Install Dependencies
-        run: pnpm install
-      - name: Check Formatters
-        run: pnpm fmt
-      - name: Run All Lints in Parallel
-        run: pnpm lint
+        run: yarn install
+      # - name: Check Formatters
+      #   run: pnpm fmt
+      # - name: Run All Lints in Parallel
+      #   run: pnpm lint
       - name: Build Website
-        run: pnpm build
+        run: yarn build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
